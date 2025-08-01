@@ -47,3 +47,16 @@ def draw_bounding_box(image, bbox, title="Tumor Bounding Box", figsize=(6, 6)):
     ax.set_title(title)
     ax.axis('off')
     plt.show()
+
+
+
+"""
+
+This gives you:
+show_mri_and_mask – Tumor highlighted on MRI
+
+show_attention_map – Attention overlay on MRI
+
+draw_bounding_box – Bounding box around tumor (from mask)
+
+"""
